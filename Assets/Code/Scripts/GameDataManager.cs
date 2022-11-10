@@ -26,10 +26,10 @@ public class GameDataManager : MonoBehaviour
 
         foreach (LocalizedString locaString in locaStringsFromJson._localizedStrings)
         {
-            Debug.Log("read in string ID " + locaString.stringID + "with a value of " + locaString.myString);
+            Debug.Log("read in string ID " + locaString.ID + "with a value of " + locaString.String);
         }
 
-        return locaStringsFromJson._localizedStrings[0].myString;
+        return locaStringsFromJson._localizedStrings[0].String;
             
     }
     

@@ -8,8 +8,8 @@ using UnityEngine.PlayerLoop;
 [System.Serializable]
 public class LocalizedString
 {
-    public int stringID;
-    public String myString;
+    public int ID;
+    public String String;
   
 }
 
